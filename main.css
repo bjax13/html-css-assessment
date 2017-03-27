@@ -27,11 +27,14 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow:hidden
 }
 
 .background {
   background-image: url(./img/main-bg.jpeg);
   background-size: cover;
+  background-position: center center; 
+  background-repeat:no-repeat;
   width: 1200px;
   display: flex;
   justify-content: center;
