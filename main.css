@@ -48,20 +48,24 @@ h3{
   flex-direction: row;
 }
 .ham-menu{
+  display: none;
   width: 5vh;
   height: 5vh;
 }
 .social-menu{
-  width: 5vh;
-  height: 5vh;
-  display: flex;
-  justify-content: center;
+
+  width: 3vh;
+  height: 3vh;
+  /*justify-content: center;
   align-content: center;
-  flex-direction: row;
+  flex-direction: row;*/
 }
-.color-white{
-  color: green;
+.social-menu-wraper{
+
+  display: none;
+
 }
+
 .ham-menu img{
   width: 100%;
 }
@@ -97,4 +101,36 @@ h3{
 }
 .down-button img{
   width: 100%
+}
+@media (max-width: 700px) {
+  .nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    padding: 0 30px 0 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .ham-menu{
+    display: flex;
+    width: 5vh;
+    height: 5vh;
+  }
+  .social-menu-wraper{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+  }
+  .social-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+  .menu-tabs{
+    display: none;
+  }
 }
