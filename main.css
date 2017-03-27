@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
 
 html{
   font-size: 16px;
@@ -6,7 +6,8 @@ html{
 
 h1,h2,h3,h4,h5,h6,p{
 
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
   color: Green;
   /*color: rgba(0,0,0,0.8);*/
 }
@@ -57,7 +58,7 @@ h3{
 }
 .your-text{
   font-size: 6rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .down-button{
   height: 10vh;
