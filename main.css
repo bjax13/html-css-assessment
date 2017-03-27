@@ -47,6 +47,28 @@ h3{
   align-items: center;
   flex-direction: row;
 }
+.ham-menu{
+  width: 5vh;
+  height: 5vh;
+}
+.social-menu{
+  width: 5vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.color-white{
+  color: green;
+}
+.ham-menu img{
+  width: 100%;
+}
+.social-menu img{
+  width: 100%;
+}
+
 .main-content{
   height: 80vh;
   display: flex;
