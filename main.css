@@ -7,8 +7,8 @@ html{
 h1,h2,h3,h4,h5,h6,p{
 
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
-  color: Green;
+  font-weight: 700;
+  color: #fcfcff;
   /*color: rgba(0,0,0,0.8);*/
 }
 h1{
@@ -31,6 +31,7 @@ h3{
 
 .background {
   background-image: url(./img/main-bg.jpeg);
+  background-size: cover;
   width: 1200px;
   display: flex;
   justify-content: center;
@@ -60,6 +61,18 @@ h3{
   font-size: 6rem;
   font-weight: 700;
 }
-.down-button{
+.down-button-wrap{
+
+
   height: 10vh;
+}
+.down-button{
+  padding: 11px;
+  background: #fcfcff;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+}
+.down-button img{
+  width: 100%
 }
